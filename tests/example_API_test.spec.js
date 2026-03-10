@@ -19,7 +19,7 @@ test('Consulta as reservas cadastradas', async ({ request }) => {
 test('Consulta uma reserva específica', async ({ request }) => {
         // 🔵 Faz request para a API e armazena a resposta
     //// const response = await request.get('/booking/4604'); // depositpaid = true
-    const response = await request.get('/booking/923'); // depositpaid = false
+    const response = await request.get('/booking/1911'); // depositpaid = false
 
 
         // 🔵 transforma a resposta em JSON e armazena em uma variável
