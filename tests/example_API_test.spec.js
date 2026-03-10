@@ -42,7 +42,7 @@ test('Consulta uma reserva específica', async ({ request }) => {
 
 test('Consulta reserva cadastrada especifica e valida somente os campos', async ({ request }) => {
     // 🔵 Faz request para a API e armazena a resposta
-    const response = await request.get('/booking/494'); // depositpaid = false
+    const response = await request.get('/booking/923'); // depositpaid = false
     const jsonBody = await response.json();
 
     // 🔵 verifica se a resposta foi bem-sucedida
